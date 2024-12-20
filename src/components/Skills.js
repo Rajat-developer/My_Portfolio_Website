@@ -59,7 +59,7 @@ export const Skills = () => {
             <Tab.Container id="skills-tab" defaultActiveKey="first">
               <Nav
                 variant="pills"
-                className="nav-pills mb-5 justify-content-center align-items-center"
+                className="nav-pills mb-4 justify-content-center align-items-center"
                 id="pills-tab"
               >
                 <Nav.Item>
@@ -74,7 +74,6 @@ export const Skills = () => {
               </Nav>
 
               <Tab.Content>
-                {/* Technical Skills */}
                 <Tab.Pane eventKey="first">
                   <Carousel indicators={false}>
                     {technicalSkillsChunks.map((chunk, index) => (
@@ -101,8 +100,6 @@ export const Skills = () => {
                     ))}
                   </Carousel>
                 </Tab.Pane>
-
-                {/* Soft Skills */}
                 <Tab.Pane eventKey="second">
                   <Carousel indicators={false}>
                     {softSkillsChunks.map((chunk, index) => (
