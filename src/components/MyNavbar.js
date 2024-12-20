@@ -80,13 +80,13 @@ export const MyNavbar = () => {
           <span className="navbar-text">
             <div className="social-icon">
               <a href={process.env.REACT_APP_LINKEDIN_URL}>
-                <img src={linkedin} alt="LinkedIn" style={{ gap: "15px" }} />
+                <img src={linkedin} alt="LinkedIn" />
               </a>
               <a href={process.env.REACT_APP_GITHUB_URL}>
-                <img src={github} alt="GitHub" style={{ gap: "15px" }} />
+                <img src={github} alt="GitHub" />
               </a>
               <a href={process.env.REACT_APP_GOOGLE_DRIVE_URL}>
-                <img src={resume} alt="Resume" style={{ gap: "15px" }} />
+                <img src={resume} alt="Resume" />
               </a>
             </div>
           </span>
