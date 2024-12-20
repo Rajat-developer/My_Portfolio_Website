@@ -26,7 +26,7 @@ export const MyNavbar = () => {
   };
 
   return (
-    <BootstrapNavbar expand="lg" className={scrolled ? "scrolled" : ""}>
+    <BootstrapNavbar expand="lg" className={scrolled ? "scrolled" : ""} >
       <Container>
         <BootstrapNavbar.Brand href="#home">
           <img
@@ -35,10 +35,10 @@ export const MyNavbar = () => {
             style={{ width: "65px", height: "65px" }}
           />
         </BootstrapNavbar.Brand>
-        <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav">
+        <BootstrapNavbar.Toggle aria-controls="basic-navbar-nav" >
           <span className="navbar-toggler-icon"></span>
         </BootstrapNavbar.Toggle>
-        <BootstrapNavbar.Collapse id="basic-navbar-nav">
+        <BootstrapNavbar.Collapse id="basic-navbar-nav" className="navbar-left">
           <Nav className="me-auto">
             <Nav.Link
               href="#home"

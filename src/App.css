@@ -91,6 +91,14 @@ nav.navbar {
   z-index: 9999;
   transition: 0.32s ease-in-out;
 }
+.navbar-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-right: 15px;
+  gap: 1rem; 
+}
 
 nav.navbar.scrolled {
   padding: 0px 0;
