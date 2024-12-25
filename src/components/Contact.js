@@ -1,16 +1,23 @@
+import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
-import contactImg from "../assets/img/contact-img.svg";
+import contactImg1 from "../assets/img/contactImg1.png";
 import instagram from "../assets/img/instagram.png";
 import phone from "../assets/img/phone.png";
 import gmail from "../assets/img/gmail.png";
 
 export const Contact = () => {
+  const [currentYear, setCurrentYear] = useState(new Date().getFullYear());
+
+  useEffect(() => {
+    setCurrentYear(new Date().getFullYear());
+  }, []);
+
   return (
     <section className="contact" id="connect">
       <Container>
         <Row className="align-items-center">
           <Col md={6} className="text-center mb-4">
-            <img src={contactImg} alt="Contact Us" className="contact-image" />
+            <img src={contactImg1} alt="Contact Us" className="contact-image" />
           </Col>
           <Col md={3}>
             <h2>Get In Touch</h2>
@@ -42,7 +49,7 @@ export const Contact = () => {
         </Row>
       </Container>
       <div className="copyright-text">
-        <p>© 2024 All Rights Reserved.</p>
+        <p>© {currentYear} All Rights Reserved.</p>
       </div>
     </section>
   );
