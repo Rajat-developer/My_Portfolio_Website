@@ -49,7 +49,7 @@ export const Contact = () => {
         </Row>
       </Container>
       <div className="copyright-text">
-        <p>© {currentYear} All Rights Reserved.</p>
+        <p>© All Rights Reserved {currentYear} <br/>Developed By Rajat Sharma</p>
       </div>
     </section>
   );

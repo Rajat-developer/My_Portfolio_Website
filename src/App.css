@@ -459,9 +459,10 @@ nav.navbar .navbar-brand img {
 
 .copyright-text {
   text-align: center;
-  font-size: 15px;
+  font-size: 12px;
   color: #b8b8b8;
   position: absolute;
   width: 100%;
-  margin-top: 10px;
+  /* margin-top: 18px; */
+  margin-bottom: 10px;
 }
