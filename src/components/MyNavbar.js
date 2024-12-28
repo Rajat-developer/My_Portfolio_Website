@@ -4,6 +4,7 @@ import logo1 from "../assets/img/logo1.png";
 import linkedin from "../assets/img/linkedin.png";
 import github from "../assets/img/github.png";
 import resume from "../assets/img/resume.png";
+import certificate from "../assets/img/certificate.png"
 
 export const MyNavbar = () => {
   const [activeLink, setActiveLink] = useState("home");
@@ -87,6 +88,9 @@ export const MyNavbar = () => {
               </a>
               <a href={process.env.REACT_APP_GOOGLE_DRIVE_URL}>
                 <img src={resume} alt="Resume" />
+              </a>
+              <a href={process.env.REACT_APP_CERTIFICATIONS}>
+                <img src={certificate} alt="Certificate"/>
               </a>
             </div>
           </span>
