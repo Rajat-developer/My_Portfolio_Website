@@ -24,11 +24,11 @@ export const Skills = () => {
   ];
 
   const tools = [
-    { title: "Git", imgUrl: meter3 },
-    { title: "GitHub", imgUrl: meter3 },
+    { title: "Git & GitHub", imgUrl: meter3 },
     { title: "VS Code", imgUrl: meter3 },
     { title: "Postman", imgUrl: meter2 },
     { title: "MsOffice", imgUrl: meter2 },
+    { title: "PowerShell", imgUrl: meter2 },
   ];
 
   const chunkSkills = (skills) => {

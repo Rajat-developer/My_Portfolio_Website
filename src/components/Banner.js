@@ -5,7 +5,7 @@ import headerImg from "../assets/img/header-img.svg";
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
-  const toRotate = ["Software Developer"];
+  const toRotate = ["End User Support Engineer"];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
   const period = 2000;
@@ -53,13 +53,14 @@ export const Banner = () => {
               {text}
             </h2>
             <p style={{ color: "#b8b8b8" }}>
-              Hello! I'm a passionate and dedicated software developer with a
-              Master's degree in Computer Applications. I have hands-on
-              experience as a MERN Stack Developer, where I worked on creating
-              dynamic and user-friendly web applications. My expertise lies in
-              building robust, scalable, and responsive solutions that deliver a
-              seamless user experience. I'm always eager to learn and take on
-              new challenges in the ever-evolving tech world.
+             I am a passionate and detail-oriented Technical Support Specialist at LRS Pvt. Ltd. (deputed to TCS), where I ensure seamless IT operations and deliver reliable technical support for end users.
+
+With hands-on experience in troubleshooting, system configuration, Active Directory, remote support, and Intune processes, I focus on resolving issues quickly while improving user satisfaction and productivity. My approach combines technical expertise with clear communication, helping users adopt IT solutions confidently.
+
+I am continuously expanding my knowledge in IT support, cloud technologies, and infrastructure management, with a long-term goal of becoming a well-rounded IT professional who can manage and optimize enterprise-level IT systems.
+
+💡 Core Skills: Windows OS | Active Directory | Intune | Troubleshooting | Remote Support | System Configuration | IT Infrastructure
+📈 Always open to collaborations, knowledge-sharing, and connecting with professionals across the IT industry.
             </p>
           </Col>
           <Col xs={12} md={6} xl={5}>
